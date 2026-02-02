@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black
+}
+h1 {
+    font-size: 60px;
+    margin: 100px 100px 10px 100px;
+    /* shorthand is top right bottom left*/
+    color: white;
+}
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 0 50px 100px;
+    color: white;
+}
+p {
+    font-size: 24px;
+    margin: 50px 100px 50px 100px;
+    color: white;
+}
+img {
+    max-width: 30%;
+    margin-left: 100px;
+}
+.imageone {
+
+  width: 30%;
+}
+.text1 {
+    float: right;
+    font-size: 16px;
+    margin: 150px 100px 150px 100px;
+
+  width: 40%;
+  color: white;
+}
+
+.imagetwo {
+  
+    width:30%;
+}
+.imagethree {
+
+    width: 30%;
+}
+.imagefour {
+
+    width: 30%;
+}
+.imagefive {
+ 
+    width: 30%;
+}
+.imagesix {
+     
+    width: 30%;
+}
+.imageseven {
+     
+    width: 30%;
+}
+.imageeight {
+    
+    width: 30%;
+}           
+
+    .imagenine {
+         
+        width: 30%; 
+}
+
+.imageten {
+      
+    width: 30%;
+}  
+
+h6 {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 50px 100px 50px 100px;
+    color: rgb(225, 216, 216);
+}
+
+.credit {
+    width: 35%;
+    margin: 0 0 0px 100px;
+    float: left;
+}
+// https://www.w3schools.com/css/css_float.asp this is where i discovered how to use float in css//
