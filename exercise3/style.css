@@ -1,0 +1,75 @@
+html, body {
+    background-color: black;
+    margin: 0;
+    height: 100%;
+}
+
+.text {
+    text-align: center;
+    position: relative;
+}
+
+#poem
+{
+    background-color: black;
+}
+
+#poem p {
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    }
+
+#poem h3
+    {
+    color: white;
+    font-size: 25px;
+    }
+
+.candle:hover {
+transform: scale(3,3) translate(50px,0); 
+opacity: 0.5;   
+}
+
+.bright:hover {
+transition: transform 0.5s ease;
+color: rgb(169, 169, 118);
+font-size: 50px;
+}
+
+div {
+  transition-duration: 5s;
+}
+
+.elliot:hover {
+transform: scale(3,3) translate(50px,0);
+opacity: 0.5;
+font-size: 50px;
+
+}
+
+
+.twilight {
+  display: inline-block;
+    transition-duration: 5s;
+}
+.twilight:hover {
+    animation-name: rotatetwilight;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes rotatetwilight {
+    0% {transform: rotate(0deg) scale(1,1); opacity: 1; left: 0;}
+    100% {transform: rotate(360deg) scale(4,4); opacity: 0; left: 80%;}
+}
+
+
+.love-image {
+transition-duration: 5s;
+opacity: 1;
+}
+.love-image:hover
+{
+opacity: 0;
+}
