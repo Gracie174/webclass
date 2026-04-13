@@ -1,0 +1,92 @@
+body {
+    padding-top: 110px;
+    background-color: black;
+    height: max-content;
+    background-size: cover;
+         font: Arial, Helvetica, sans-serif;
+     
+         
+}
+h1 {
+      font-family: Arial, Helvetica, sans-serif;
+        font-size: 65px;
+        color:white;
+        margin: 1px; 
+}
+
+.cypress{
+     width: 800px;
+    height: auto;
+    display: block;
+    margin: 0;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin: 0 auto;
+}
+
+p {
+    color: white;
+     margin: 5px 5px 5px 5px;
+     font-size: 28px;
+     font: Arial, Helvetica, sans-serif;
+     text-align: center;
+}
+
+.map1 { 
+    width: 50%;
+    height: auto;
+    display: block;
+margin: 0 auto;}
+
+ 
+.school1 { 
+    width: 50%;
+    height: auto;
+    display: block;
+margin: 0 auto;}
+
+.school2 { 
+     width: 50%;
+    height: auto;
+    display: block;
+margin: 0 auto;}
+
+.church1 { 
+     width: 50%;
+    height: auto;
+    display: block;
+margin: 0 auto;}
+
+
+.church2{ 
+    width: 50%;
+    height: auto;
+    display: block;
+margin: 0 auto;}
+
+.house2{ 
+    width: 50%;
+    height: auto;
+    display: block;
+margin: 0 auto;}
+
+.house1{ 
+     width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.white {
+    width: 100vh;
+    height: 100vh;
+    display: block;
+    margin: 5px auto;
+}
